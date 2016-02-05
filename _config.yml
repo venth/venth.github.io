@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://venth.github.io
+title: Artur Krysiak
+tagline: Notebook
+description: Nice place to memorize learnt knowledge
+paginate: 5
