@@ -4,7 +4,7 @@ title: "Github transformation from flat to hierarchical structure"
 date: "2016-02-07 19:42"
 ---
 
-Today I was thrilled (in bad meaning) by the [information](http://www.businessinsider.com/github-the-full-inside-story-2016-2) that Github is changing
+Today I was flurried by the [information](http://www.businessinsider.com/github-the-full-inside-story-2016-2) about Github changing
 its structure from flat company with remote work culture to a yet another corporate being.
 
 In the article is written that large amount of Github devs aren't happy about the company transformation. They started to depart from the company. The atmosphere also degraded.
