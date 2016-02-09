@@ -2,6 +2,7 @@
 layout: "post"
 title: "Github transformation from flat to hierarchical structure"
 date: "2016-02-07 19:42"
+tags: [corporation, transformation, flat-structure]
 ---
 
 Today I was flurried by the [information](http://www.businessinsider.com/github-the-full-inside-story-2016-2) about Github changing
