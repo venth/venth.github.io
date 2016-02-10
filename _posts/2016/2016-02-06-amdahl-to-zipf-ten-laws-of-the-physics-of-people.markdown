@@ -3,7 +3,6 @@ layout: "post"
 title: "Reflection after reading: Amdahl to Zipf: Ten Laws of the Physics of People"
 date: "2016-02-06 13:25"
 tags: [universal-law]
-categories: [2016]
 ---
 
 The link to the article: [Amdahl to Zipf: Ten Laws of the Physics of People](http://hintjens.com/blog:100)

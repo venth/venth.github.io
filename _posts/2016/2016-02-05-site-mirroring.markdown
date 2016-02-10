@@ -3,7 +3,6 @@ published: true
 title: Site mirroring
 layout: post
 tags: [rxjava, offline-site, wget]
-categories: [2016]
 ---
 From time to time I need to flight. During last flight I implemented a part of application with rxjava library and after a while I've realized: I forgot how ["window"](http://reactivex.io/documentation/operators/window.html) operator works.
 
