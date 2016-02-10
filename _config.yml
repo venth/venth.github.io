@@ -6,7 +6,7 @@ paginate: 5
 
 # Handling Reading
 safe:         false
-include:      [".htaccess"]
+include:      [".htaccess", "tags.html"]
 exclude:      [Gemfile, Gemfile.lock, LICENSE.md]
 keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
@@ -29,7 +29,3 @@ paginate_path: /page:num
 timezone:      null
 
 quiet:    false
-
-tag_page_layout: tag_page
-tag_page_dir: tag
-tag_permalink_style: pretty

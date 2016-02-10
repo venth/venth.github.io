@@ -1,0 +1,29 @@
+---
+permalink: "/tags"
+layout: default
+title: tags
+category: tags
+description: Explore posts by tags.
+weight: 5
+---
+
+<div id="tags">
+  {% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[0] }}
+  {% endfor %}
+  {% endcapture %}
+  {% assign sortedtags = tags | split:' ' | sort %}
+
+  {% for tag in sortedtags %}
+    <a href="#{{ tag }}"><h3 id="{{ tag }}">{{ tag }}</h3></a>
+    <ul class="list">
+    {% for post in site.tags[tag] %}
+      <li>
+        {% include post_date.html %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
