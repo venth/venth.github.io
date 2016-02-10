@@ -3,6 +3,7 @@ layout: "post"
 title: "Reflection after reading: Amdahl to Zipf: Ten Laws of the Physics of People"
 date: "2016-02-06 13:25"
 tags: [universal-law]
+categories: [2016]
 ---
 
 The link to the article: [Amdahl to Zipf: Ten Laws of the Physics of People](http://hintjens.com/blog:100)
@@ -20,7 +21,7 @@ Laws:
 
   Such a decision forced upon a team by the super upper boss has no economic motive (all right, some times has). On the other hand system driven by economical means are successful.
 
-  It's so true: ** the more accurate economic motive, the more accurate direction of movement **
+  It's so true: **the more accurate economic motive, the more accurate direction of movement**
 
   I remember a blog post by one of google's engineers. He describes a service that used to many calls to fulfill its purpose. Over-usage of requests caused troubles in dependent services. The team developing this service didn't optimize the service trough two years. Then someone came to an idea to bill service usage. After the idea had been put into a practice the service was optimized in less then month.
 
