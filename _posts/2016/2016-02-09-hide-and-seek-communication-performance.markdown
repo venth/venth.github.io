@@ -2,7 +2,7 @@
 layout: "post"
 title: "Hide and Seek: Communication performance"
 date: "2016-02-09 21:07"
-tags: [performance, partial result, partial request, stream, reactive, java]
+tags: [performance, partial-result, partial-request, stream, reactive, java]
 ---
 One of the major player in a system architecture is communication between
 components / services / application. Since it's used in almost every place
