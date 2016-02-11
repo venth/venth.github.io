@@ -3,12 +3,6 @@
   margin-bottom: 4em;
 }
 
-.post {
-  border-radius: 5em;
-  border-color: #ddd;
-  border-width: 1px;
-}
-
 /* Blog post or page title */
 .page-title,
 .post-title,
