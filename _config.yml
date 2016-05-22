@@ -29,3 +29,4 @@ paginate_path: /page:num
 timezone:      null
 
 quiet:    false
+future: true
