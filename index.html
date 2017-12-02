@@ -16,8 +16,7 @@ title: Home
           </a>
         </h1>
         {% include post_date.html %}
-
-        {{ post.content }}
+        <p>{{ post.excerpt | strip_html | truncatewords:75 }}</p>
         {% include post_summary.html %}
       </div>
     </div>
