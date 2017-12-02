@@ -7,14 +7,25 @@ paginate: 5
 # Handling Reading
 safe:         false
 include:      [".htaccess", "tags.html"]
-exclude:      [Gemfile, Gemfile.lock, LICENSE.md]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - _docker
+  - docker-compose.yml
+  - .jekyll-metadata
 keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Plugins
+repository: git@github.com:venth/venth.github.io.git
 whitelist: []
-gems: [jekyll-paginate, jekyll-watch, kramdown]
+plugins:
+  - jekyll-paginate
+  - kramdown
+  - jekyll-watch
+  - jekyll/tagging
 
 # Conversion
 markdown:    kramdown
