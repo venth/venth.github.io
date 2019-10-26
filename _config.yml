@@ -14,7 +14,7 @@ exclude:
   - _docker
   - docker-compose.yml
   - .jekyll-metadata
-keep_files:   [".git", ".svn"]
+keep_files:   [".git", ".svn", ".gitmodules"]
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -23,6 +23,7 @@ repository: git@github.com:venth/venth.github.io.git
 whitelist: []
 plugins:
   - jekyll-paginate
+  - jekyll-postfiles
   - kramdown
   - jekyll-watch
   - jekyll/tagging
@@ -36,8 +37,8 @@ incremental: false
 
 # Outputting
 permalink: /posts/:year/:month/:day/:title.html
-paginate_path: /page:num
+paginate_path: /page/:num
 timezone:      null
 
-quiet:    true
+quiet: true
 future: false

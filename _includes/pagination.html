@@ -1,6 +1,6 @@
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="btn btn-default btn-xs" href="/page{{paginator.next_page}}">Older</a>
+    <a class="btn btn-default btn-xs" href="/page/{{paginator.next_page}}">Older</a>
   {% else %}
     <span class="btn btn-default btn-xs disabled">Older</span>
   {% endif %}
@@ -8,7 +8,7 @@
     {% if paginator.page == 2 %}
       <a class="btn btn-default btn-xs" href="/">Newer</a>
     {% else %}
-      <a class="btn btn-default btn-xs" href="/page{{paginator.previous_page}}">Newer</a>
+      <a class="btn btn-default btn-xs" href="/page/{{paginator.previous_page}}">Newer</a>
     {% endif %}
   {% else %}
     <span class="btn btn-default btn-xs disabled">Newer</span>

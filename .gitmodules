@@ -1,4 +1,4 @@
 [submodule "_external/webhook-button"]
-	path = _external/webhook-button
+	path = _includes/external/webhook-button
 	url = https://github.com/venth/webhook-button.git
 	branch = master
