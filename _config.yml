@@ -39,5 +39,5 @@ permalink: /posts/:year/:month/:day/:title.html
 paginate_path: /page:num
 timezone:      null
 
-quiet:    false
-future: true
+quiet:    true
+future: false
