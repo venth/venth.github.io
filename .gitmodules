@@ -2,3 +2,7 @@
 	path = _includes/external/webhook-button
 	url = https://github.com/venth/webhook-button.git
 	branch = master
+[submodule "_includes/external/swagger-ui-webflux"]
+	path = _includes/external/swagger-ui-webflux
+	url = https://github.com/venth/swagger-ui-webflux.git
+	branch = master
